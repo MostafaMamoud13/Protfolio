@@ -1,0 +1,234 @@
+/*  Font from Google */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/*  Navigation Styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 130px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Better than using margin-right individually */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+nav ul a:hover {
+  color: #fd6e0a;
+}
+
+/*  Logo or Nav Title */
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+  color: #000;
+}
+
+/*  Button Styles */
+.btn {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  padding: 18px 36px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+  background-color: #e45d00;
+}
+
+/* Banner Section */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+  width: auto;
+}
+
+.banner-content1 {
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+}
+
+.banner-content2 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #000;
+  width: 798px;
+  height: auto;
+  margin-top: -40px;
+}
+
+.banner-content3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #474747;
+  margin-top: -45px;
+  max-width: 700px;
+}
+
+.banner-content4 {
+  margin-top: 17px;
+}
+
+/*  Header Background */
+header {
+  background-image: url(""), url("images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: auto;
+  width: auto;
+}
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  margin-top: 130px;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  text-align: center; /*  This will center the text horizontally */
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #757576;
+}
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
+.about1 {
+  padding: 90px 140px;
+}
+.aout-endline {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.about-info {
+  display: flex;
+  justify-content: space-around;
+}
+.aout-info-gap {
+  margin-top: 40px;
+}
+
+/* main style */
+main {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+.skillls-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  gap: 24px;
+}
+.skill {
+  width: 250px;
+  height: 300px;
+  background-color: #ffffff;
+  padding: 30px;
+  box-shadow: 2px 4px 20px rgba(89, 43, 43, 0.15);
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+.skill-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.s-dd {
+  text-align: center;
+}
+.summary {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 130px;
+}
+.education {
+  height: 175px;
+  width: 511px;
+}
+.education-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+.education-dex {
+  font-weight: 300;
+  font-size: 16px;
+}
+.summary-flexss {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+.inp {
+  border: none;
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  width: 400px;
+}
+.footer-section {
+  margin-left: 230px;
+  margin-top: 130px;
+  width: auto;
+}
+.massege {
+  margin-top: 130px;
+  margin-right: 386px;
+}
+#btnn {
+  margin-top: 24px;
+}
+#footers {
+  height: 780px;
+}
+.connect-dex {
+  padding: 12px;
+}
+.icon {
+  margin-left: 10px;
+}
+.home-img{
+  margin-top: 30px;
+}
+.home-img img {
+  border-radius: 30px;
+  position:static;
+  width: 27vw;
+  margin-right: 5em;
+  box-shadow: 0 025px solid #b74b4b;
+  cursor: pointer;
+  transition: 0.2s linear;
+}      
