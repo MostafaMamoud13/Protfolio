@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>web-dev-profolio</title>
+  <title>Mostafa Mahmoud</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
@@ -20,15 +20,16 @@
     <nav>
       <img src="images/icons/pngegg (1).png"></h3>
       <ul>
-        <li><a class="li-clr" href="#">Home</a></li>
-        <li><a href="#" class="li-clr">Project</a></li>
-        <li><a href="#" class="li-clr">certification</a></li>
+        <li><a class="li-clr" href="/index.html">Home</a></li>
+        <li><a href="/Project.html" class="li-clr">Project</a></li>
+        <li><a href="/certification.html" class="li-clr">certification</a></li>
 
 
         <li>
           <a onclick="window.location.href='mailto:moabdelfatah40@gmail.com'" target="_blank"><button
               class="btn">Contact</button></a>
         </li>
+        
       </ul>
     </nav>
     <div class="banner">
@@ -37,10 +38,18 @@
           <h4 class="banner-content1">Hi, I am</h4>
           <h1 class="banner-content2">Mostafa Mahmoud</h1>
           <h6 class="banner-content3">
-            Shot what able cold new see hold. Friendly as an betrayed formely
-            <br />
-            he. morning because as to society behaved moments.
+a passionate Back-end Developer. <br /> I love building robust and efficient web applications<br> that deliver real value.
+           
           </h6>
+            <div class="banner-content4" style="display: flex; gap: 20px; align-items: center;">
+               <a href="https://www.linkedin.com/in/mostafa-mahmoud-382b19265" target="_blank" class="social-btn linkedin">
+               <i class="fab fa-linkedin"></i> LinkedIn
+               </a>
+
+          <a href="https://github.com/Mostafa-Mahmoud13" target="_blank" class="social-btn github">
+          <i class="fab fa-github"></i> GitHub
+          </a>
+</div>
           <div style="display: flex" class="banner-content4">
             <a class="btn" href="multimedia/cv Mostafa.pdf" target="_blank" download>
               <i class="fa-solid fa-arrow-down"></i> Download CV
@@ -179,6 +188,17 @@
       </div>
     </div>
   </footer>
+
+    <script>
+    const menuIcon = document.querySelector(".menu-icon");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuIcon.onclick = () => {
+      navLinks.classList.toggle("show");
+    };
+  </script>
+  
+
 </body>
 
 </html>
